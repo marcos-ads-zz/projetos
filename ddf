@@ -1,0 +1,79 @@
+[33mcommit a6be86974446caa91c4dbdf93eb515a429b043a8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Your Name <marcosneri@outlook.com.br>
+Date:   Tue Jun 27 19:44:27 2017 -0300
+
+    Ol√° Mundo Adicionado
+
+[1mdiff --git a/Aula Aislan Git/.classpath b/Aula Aislan Git/.classpath[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fceb480[m
+[1m--- /dev/null[m
+[1m+++ b/Aula Aislan Git/.classpath[m	
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<classpath>[m
+[32m+[m	[32m<classpathentry kind="src" path="src"/>[m
+[32m+[m	[32m<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>[m
+[32m+[m	[32m<classpathentry kind="output" path="bin"/>[m
+[32m+[m[32m</classpath>[m
+[1mdiff --git a/Aula Aislan Git/.gitignore b/Aula Aislan Git/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ae3c172[m
+[1m--- /dev/null[m
+[1m+++ b/Aula Aislan Git/.gitignore[m	
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m/bin/[m
+[1mdiff --git a/Aula Aislan Git/.project b/Aula Aislan Git/.project[m
+[1mnew file mode 100644[m
+[1mindex 0000000..02a5bc8[m
+[1m--- /dev/null[m
+[1m+++ b/Aula Aislan Git/.project[m	
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<projectDescription>[m
+[32m+[m	[32m<name>Aula Aislan Git</name>[m
+[32m+[m	[32m<comment></comment>[m
+[32m+[m	[32m<projects>[m
+[32m+[m	[32m</projects>[m
+[32m+[m	[32m<buildSpec>[m
+[32m+[m		[32m<buildCommand>[m
+[32m+[m			[32m<name>org.eclipse.jdt.core.javabuilder</name>[m
+[32m+[m			[32m<arguments>[m
+[32m+[m			[32m</arguments>[m
+[32m+[m		[32m</buildCommand>[m
+[32m+[m	[32m</buildSpec>[m
+[32m+[m	[32m<natures>[m
+[32m+[m		[32m<nature>org.eclipse.jdt.core.javanature</nature>[m
+[32m+[m	[32m</natures>[m
+[32m+[m[32m</projectDescription>[m
+[1mdiff --git a/Aula Aislan Git/.settings/org.eclipse.jdt.core.prefs b/Aula Aislan Git/.settings/org.eclipse.jdt.core.prefs[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3a21537[m
+[1m--- /dev/null[m
+[1m+++ b/Aula Aislan Git/.settings/org.eclipse.jdt.core.prefs[m	
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32meclipse.preferences.version=1[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.codegen.unusedLocal=preserve[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.compliance=1.8[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.debug.lineNumber=generate[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.debug.localVariable=generate[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.debug.sourceFile=generate[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.problem.assertIdentifier=error[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.problem.enumIdentifier=error[m
+[32m+[m[32morg.eclipse.jdt.core.compiler.source=1.8[m
+[1mdiff --git a/Aula Aislan Git/src/objeto/GitTeste.java b/Aula Aislan Git/src/objeto/GitTeste.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b0453a2[m
+[1m--- /dev/null[m
+[1m+++ b/Aula Aislan Git/src/objeto/GitTeste.java[m	
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32mpackage objeto;[m
+[32m+[m
+[32m+[m[32mpublic class GitTeste {[m
+[32m+[m	[32mpublic static void main (String[] args){[m
+[32m+[m		[32mSystem.out.println("Ol· Mundo");[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m[32m}[m

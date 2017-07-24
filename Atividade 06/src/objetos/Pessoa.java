@@ -2,7 +2,7 @@ package objetos;
 //Getters e Setters, encapsulando os atributos
 public class Pessoa {
 	private String  nome = "Marcos";
-	
+	private int idade = 25;
 	
 	public String getNome(){
 		return nome;
@@ -20,6 +20,6 @@ public class Pessoa {
 		this.nome = nome;	
 	}
 	
-	private int idade = 25;
+	
 
 }
