@@ -12,9 +12,9 @@ public class AlgarismoTest {
 		armazena.converte(15);
 		armazena2.adicionaNaLista(new Algarismos(armazena.getNn(), armazena.getResult()));
 		int esperado1 = 15;
-		//String esperado2 = "<XV>";
-		Assert.assertEquals(esperado1, armazena.getNn(), 0);
-		//Assert.assertEquals(esperado2, armazena.getResult(), 0);
+		String esperado2 = "XV";
+		Assert.assertEquals(esperado1, armazena.getNn());
+		Assert.assertEquals(esperado2, armazena.getResult());
 		System.out.println("Converte");
 		System.out.println("Tamanho do Array-> "+ armazena2.getAlgarismos().size());
 		for(Algarismos algarismos : armazena2.getAlgarismos()){
@@ -30,9 +30,9 @@ public class AlgarismoTest {
 		armazena2.adicionaNaLista(new Algarismos(armazena.getNn(), armazena.getResult()));
 		
 		int esperado1 = 28;
-		//String esperado2 = "<XXVIII>";
-		Assert.assertEquals(esperado1, armazena.getNn(), 0);
-        //Assert.assertEquals(esperado2, armazena.getResult(), 0);
+		String esperado2 = "XXVIII";
+		Assert.assertEquals(esperado1, armazena.getNn());
+        Assert.assertEquals(esperado2, armazena.getResult());
 		System.out.println("Converte");
 		System.out.println("Tamanho do Array-> "+ armazena2.getAlgarismos().size());
 		for(Algarismos algarismos : armazena2.getAlgarismos()){
@@ -48,9 +48,9 @@ public class AlgarismoTest {
 		armazena2.adicionaNaLista(new Algarismos(armazena.getNn(), armazena.getResult()));
 		
 		int esperado1 = 4;
-		//String esperado2 = "<IV>";
-		Assert.assertEquals(esperado1, armazena.getNn(), 0);
-		//Assert.assertEquals(esperado2, armazena.getResult(), 0);
+		String esperado2 = "IV";
+		Assert.assertEquals(esperado1, armazena.getNn());
+		Assert.assertEquals(esperado2, armazena.getResult());
 		System.out.println("Converte");
 		System.out.println("Tamanho do Array-> "+ armazena2.getAlgarismos().size());
 		for(Algarismos algarismos : armazena2.getAlgarismos()){
