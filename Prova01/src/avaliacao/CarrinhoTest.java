@@ -61,7 +61,8 @@ public class CarrinhoTest {
 		CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
 		MenorEMaior verif = new MenorEMaior();
 		verif.encontra(carrinho);
-		Assert.assertEquals(0, 0,0.00001);
+		double Lista = 0;
+		Assert.assertEquals(Lista,carrinho.getProdutos().size() ,0.00001);
 		System.out.println("\nNenhum Produto na Lista");
 		System.out.println("Tamanho do Array-> "+carrinho.getProdutos().size());
 	}

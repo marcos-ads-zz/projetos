@@ -13,6 +13,6 @@ public class EmAprovacao implements EstadoDeUmOrcamento {
 		orcamento.estadoAtual = new Reprovado();
 	}
 	public void finaliza(Orcamento orcamento) {
-		throw new RuntimeException("O or√ßamento em aprova√ß√£o n√£o pode ser finalizado");	
+		throw new RuntimeException("O orÁamento em aprovaÁ„o n„o pode ser finalizado");	
 	}
 }

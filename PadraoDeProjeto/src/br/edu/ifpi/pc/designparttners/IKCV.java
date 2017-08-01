@@ -21,7 +21,7 @@ public class IKCV extends TemplateDeImpostoCondicional {
 		}	
 	}
 	public double maximaTaxacao(Orcamento orcamento) {	
-		return orcamento.getValor() * 0.1;
+		return orcamento.getValor() * 0.10;
 	}
 	public double minimaTaxacao(Orcamento orcamento) {
 		return orcamento.getValor() * 0.06;

@@ -5,17 +5,17 @@ public class Finalizado implements EstadoDeUmOrcamento {
 		throw new RuntimeException("N√£o recebe desconto extra"); 
 	}
 	public void aprova(Orcamento orcamento) {	
-		throw new RuntimeException("Orcamento j√° finalizado");
+		throw new RuntimeException("Orcamento j· finalizado");
 	}
 
 	
 	public void reprova(Orcamento orcamento) {
-		throw new RuntimeException("Orcamento j√° finalizado");
+		throw new RuntimeException("Orcamento j· finalizado");
 	}
 
 	
 	public void finaliza(Orcamento orcamento) {
-		throw new RuntimeException("Orcamento j√° finalizado");
+		throw new RuntimeException("Orcamento j· finalizado");
 		
 	}
 }
